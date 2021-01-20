@@ -8,7 +8,7 @@ public class ArmStrongDemo {
 		
 		System.out.println("Enter the value of n");
 		int n=s.nextInt();
-		int temp=r;
+		int temp=n;
 		
 		int sum=0, r;
 		
