@@ -12,11 +12,6 @@ public class ArmStrongDemo {
 		
 		int sum=0, r;
 		
-		do{
-			r=n%10;
-			sum=sum+(r*r*r);
-			n=n/10;
-		}while(n!=0);
 		
 		if(sum==temp){
 			System.out.println("Given number is Armstrong number "+temp);
